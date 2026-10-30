@@ -55,3 +55,14 @@
  .title-topline,.title-footer{font-size:12px}.run-record{font-size:12px}.title-description{font-size:15px}
  .help-steps span{font-size:13px}.help-steps strong{font-size:12px}.controls-list{font-size:11px}.paytable-grid small{font-size:10px}.paytable-grid b{font-size:12px}.upgrade-card p{font-size:13px}.install-price{font-size:12px}
 }
+.bet-row{margin:0;order:0;grid-column:1/-1}.overclock-button{order:1}.spin-button{order:2}.next-deadline{order:3}
+.bet-row.dim{opacity:.4;pointer-events:none}
+@media(min-width:801px) and (max-width:1199px){.bet-row small{display:none}.bet-row{padding:4px 10px}.bet-btn,.bet-max{min-height:36px}}
+@media(min-width:1200px){
+ .control-deck{width:min(980px,calc(100vw - 560px))}
+ .main-controls{grid-template-columns:1fr 232px 1.5fr .8fr}
+ .bet-row{grid-column:auto;order:1;display:grid;grid-template-columns:auto 1fr auto auto;gap:6px;align-items:center;padding:6px 8px}
+ .bet-row .bet-label{display:none}.bet-row .bet-amt{grid-column:2;grid-row:1}.bet-row .bet-btn:first-of-type{grid-column:1;grid-row:1}
+ .bet-row small{grid-column:1/-1;grid-row:2;text-align:center;font-size:10px}
+ .overclock-button{order:0}.spin-button{order:2}.next-deadline{order:3}
+}
