@@ -1,0 +1,17 @@
+{
+  "name": "token-tumble",
+  "version": "1.1.0",
+  "private": true,
+  "description": "TOKEN//TUMBLE - roguelike slot compiler by Fun Pixel x Panic Protocol",
+  "scripts": {
+    "sync": "cap sync android",
+    "apk": "cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

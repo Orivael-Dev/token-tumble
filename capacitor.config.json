@@ -1,0 +1,7 @@
+{
+  "appId": "com.panicprotocol.tokentumble",
+  "appName": "Token Tumble",
+  "webDir": "dist",
+  "backgroundColor": "#050911",
+  "android": { "allowMixedContent": false }
+}
