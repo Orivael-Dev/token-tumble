@@ -32,3 +32,26 @@
  .title-screen{padding:12px 4vw}.title-content h1{font-size:44px}.title-tagline{margin:10px 0 6px;font-size:12px}.title-description{display:none}.run-record{margin-top:10px}
  .modal{padding:14px;max-height:calc(100dvh - 12px)}.upgrade-grid{grid-template-columns:repeat(3,1fr)}.upgrade-card{min-height:150px;padding:10px}
 }
+@media(min-width:801px){
+ .panel-kicker{font-size:10px}.stage-brief{font-size:12px}.quota-label,.spins-label{font-size:10px}.quota-label strong{font-size:13px}.spins-label strong{font-size:11px}
+ .wallet-caption{font-size:9px}.micro-stats span{font-size:9px}.system-stat span{font-size:11px}.system-stat strong{font-size:18px}.system-note{font-size:10px}
+ .system-grid span{font-size:9px}.system-grid strong{font-size:17px}.module-heading{font-size:10px}.empty-modules{font-size:11px}.installed-module{font-size:11px}
+ .event-line{font-size:11px}.overclock-button b{font-size:11px}.overclock-button small{font-size:8px}.spin-button>span{font-size:16px}.spin-button small{font-size:9px}
+ .next-deadline span{font-size:9px}.next-deadline strong{font-size:21px}.next-deadline small{font-size:10px}.bet-row small{font-size:9px}.reroll-label{font-size:9px}
+ .mini-brand small{font-size:9px}.stage-breadcrumb span{font-size:11px;width:36px;height:28px}.title-topline,.title-footer{font-size:11px}.run-record{font-size:11px}
+ .help-steps span{font-size:12px}.help-steps strong{font-size:11px}.controls-list{font-size:10px}.paytable-grid small{font-size:9px}.paytable-grid b{font-size:11px}.line-multipliers{font-size:10px}.modal .payline-list{font-size:10px}
+ .end-stats span{font-size:9px}.upgrade-tag{font-size:10px}.upgrade-card p{font-size:12px}.upgrade-card em{font-size:10px}.install-price{font-size:11px}.draft-wallet span{font-size:10px}
+}
+@media(min-width:1200px){
+ .hud-panel{width:270px;padding:20px}.hud-panel h2{font-size:23px}.wallet{font-size:36px}.token-icon{width:27px;height:27px;font-size:14px}
+ .panel-kicker{font-size:12px}.stage-brief{font-size:14px}.quota-label,.spins-label{font-size:12px}.quota-label strong{font-size:16px}.spins-label strong{font-size:13px}
+ .wallet-caption{font-size:11px}.micro-stats span{font-size:11px}.system-stat span{font-size:13px}.system-stat strong{font-size:22px}.system-note{font-size:12px}
+ .system-grid span{font-size:11px}.system-grid strong{font-size:20px}.module-heading{font-size:12px}.empty-modules{font-size:13px}.installed-module{font-size:13px}
+ .control-deck{width:min(820px,calc(100vw - 640px))}
+ .event-line{font-size:13px;min-height:36px}.overclock-button b{font-size:13px}.overclock-button small{font-size:10px}.spin-button{min-height:72px}.spin-button>span{font-size:19px}.spin-button small{font-size:11px}
+ .next-deadline span{font-size:11px}.next-deadline strong{font-size:25px}.next-deadline small{font-size:12px}
+ .bet-row{font-size:13px;padding:8px 14px}.bet-label{font-size:12px}.bet-amt{font-size:22px}.bet-btn,.bet-max{min-height:44px}.bet-row small{font-size:11px}
+ .mini-brand{font-size:17px}.mini-brand small{font-size:11px}.stage-breadcrumb span{font-size:12px}.topbar{height:64px}.hud-panel{top:88px}
+ .title-topline,.title-footer{font-size:12px}.run-record{font-size:12px}.title-description{font-size:15px}
+ .help-steps span{font-size:13px}.help-steps strong{font-size:12px}.controls-list{font-size:11px}.paytable-grid small{font-size:10px}.paytable-grid b{font-size:12px}.upgrade-card p{font-size:13px}.install-price{font-size:12px}
+}
